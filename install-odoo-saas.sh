@@ -59,9 +59,8 @@
  export SSL_KEY=${SSL_KEY:-/etc/nginx/XXXX.key}
 
  ## wkhtmltopdf
- export WKHTMLTOPDF_DEB_URL=${WKHTMLTOPDF_DEB_URL:-"https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb"}
- export WKHTMLTOPDF_DEPENDENCIES=${WKHTMLTOPDF_DEPENDENCIES:-"https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_i386.deb
-"}
+ export WKHTMLTOPDF_DEB_URL=${WKHTMLTOPDF_DEB_URL:-""}
+ export WKHTMLTOPDF_DEPENDENCIES=${WKHTMLTOPDF_DEPENDENCIES:-""}
 
  #### Detect type of system manager
  export SYSTEM=''
